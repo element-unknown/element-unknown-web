@@ -4,6 +4,7 @@ import Navbar from './components/layouts/Navbar';
 import Dashboard from './components/dashboard/Dashboard';
 import LogIn from './components/auth/LogIn';
 import SignUp from './components/auth/SignUp';
+import About from './components/about/About';
 import Footer from './components/layouts/Footer';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path="/" component={Dashboard} />
             <Route path="/login" component={LogIn} />
             <Route path="/signup" component={SignUp} />
+            <Route path="/about" component={About} />
           </Switch>
           <Footer />
         </div>

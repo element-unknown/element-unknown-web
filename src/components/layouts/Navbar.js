@@ -1,6 +1,7 @@
 import React from 'react'
 import SignedInLinks from './SignedInLinks';
 import SignedOutLinks from './SignedOutLinks';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navbar = () => {
           <li><a href="#">News</a></li>
           <li><a href="#">Games</a></li>
           <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
+          <li><NavLink to="/about">About</NavLink></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
