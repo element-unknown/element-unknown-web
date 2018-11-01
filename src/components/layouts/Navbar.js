@@ -11,7 +11,7 @@ const Navbar = () => {
         <SignedOutLinks />    
         <SignedInLinks />
         <ul className="right hide-on-med-and-down">
-          <li><a href="#">News</a></li>
+          <li><NavLink to="/news">News</NavLink></li>
           <li><a href="#">Games</a></li>
           <li><a href="#">Shop</a></li>
           <li><NavLink to="/about">About</NavLink></li>
