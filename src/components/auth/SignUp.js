@@ -11,8 +11,8 @@ export class SignUp extends Component {
 
   render() {
     return (
-      <form className="section">
-        <div className="container">
+      <form className="container white">
+        <div className="container section">
           <h3 className="grey-text text-darken-4">Create Account</h3>
           <div className="input-field">
             <input type="email" id="email" autoComplete="new-email" />
