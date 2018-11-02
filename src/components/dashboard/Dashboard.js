@@ -3,7 +3,7 @@ import NewsArticle from '../news/NewsArticle';
 
 export class Dashboard extends Component {
   state = {
-    articles: [, <NewsArticle />, <NewsArticle />, <NewsArticle />]
+    articles: [ <NewsArticle />, <NewsArticle />, <NewsArticle />]
   }
 
   loadMore = (e) => {
