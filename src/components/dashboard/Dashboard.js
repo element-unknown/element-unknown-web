@@ -22,7 +22,6 @@ export class Dashboard extends Component {
             <div className="center">
               <a href="#" className="center" onClick={this.loadMore}>Load More</a>
             </div>
-            {}
           </div>
           <div className="col s12 l4">
             <div className="card">
